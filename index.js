@@ -32,4 +32,5 @@ if ((JonSnowHealth + healthkit) >= 100) {
     JonSnowHealth = 100;
 } else {
     JonSnowHealth += healthkit;
+    console.log(`Jon health go's up! ${JonSnowHealth}`);
 }
